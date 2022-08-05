@@ -14,7 +14,7 @@ echo "--------------------------------------------------------------------------
 echo "Устанавливаем обновление"
 echo "-----------------------------------------------------------------------------"
 cargo build --release
-sudo mv /home/ubuntu/sui/target/release/{sui,sui-node,sui-faucet} /usr/bin/
+sudo mv /home/ubuntu/.sui/target/release/{sui,sui-node,sui-faucet} /usr/bin/
 sudo systemctl restart sui
 echo "-----------------------------------------------------------------------------"
 echo "Обновление завершено"
